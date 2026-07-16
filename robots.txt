@@ -1,0 +1,7 @@
+# TROQUE "SEU-DOMINIO-AQUI.com.br" pelo domínio real antes de publicar
+# (mesma troca necessária no index.html: canonical, Open Graph, JSON-LD)
+
+User-agent: *
+Allow: /
+
+Sitemap: https://SEU-DOMINIO-AQUI.com.br/sitemap.xml

@@ -1,0 +1,12 @@
+# Headers de segurança — formato Netlify / Cloudflare Pages.
+# Coloque este arquivo (nome exato "_headers", sem extensão) na raiz do site publicado.
+# NÃO tem efeito no GitHub Pages puro (ele não lê este arquivo) — funciona em Netlify,
+# Cloudflare Pages e Vercel. No GitHub Pages, a única camada de CSP possível é a
+# <meta http-equiv="Content-Security-Policy"> que já está no <head> do index.html.
+/*
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=()
