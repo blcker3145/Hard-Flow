@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blcker3145.github.io/Hard-Flow/sitemap.xml
+Sitemap: https://hardflowsite.com/sitemap.xml
